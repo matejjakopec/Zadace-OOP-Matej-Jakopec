@@ -8,7 +8,7 @@ namespace PrviOOP
 {
     class TvUtilities
     {
-        public double GenerateRandomScore()
+        static public double GenerateRandomScore()
         {
             Random random = new Random();
             return random.NextDouble() * (10.0 - 0.0) + 0.0;
