@@ -34,7 +34,7 @@ namespace PrviOOP
         {
             for (int i = 0; i < episodes.Length - 1; i++)
             {
-                for (int j = 0; j < episodes.Length - 1; j++)
+                for (int j = 0; j < episodes.Length; j++)
                 {
                         if (episodes[i] > episodes[j]) 
                         {
