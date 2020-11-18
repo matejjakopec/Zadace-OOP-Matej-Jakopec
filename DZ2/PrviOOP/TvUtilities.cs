@@ -32,7 +32,7 @@ namespace PrviOOP
         }
          static public void Sort(Episode[] episodes)
         {
-            for (int i = 0; i < episodes.Length - 1; i++)
+            for (int i = 0; i < episodes.Length; i++)
             {
                 for (int j = 0; j < episodes.Length; j++)
                 {
